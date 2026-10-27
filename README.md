@@ -1,1 +1,3 @@
 # Inversi-n-de-dependencias-
+[Inversión de Dependencias.zip](https://github.com/user-attachments/files/34052395/Inversion.de.Dependencias.zip)
+Este principio dice que las clases deben depender de una abstracción y no directamente de una clase específica, en este ejemplo, EnvioRecibo funciona como una interfaz que define el método EnviarRecibo(). Las clases EnviarEmail y EnviarApp implementan ese método de diferentes maneras, la clase AdmProducto utiliza la interfaz EnvioRecibo para enviar el recibo, sin depender directamente de EnviarEmail o EnviarApp. Por eso el programa puede utilizar cualquiera de las dos opciones y también se podría agregar otra forma de enviar el recibo sin cambiar el método Compra.
